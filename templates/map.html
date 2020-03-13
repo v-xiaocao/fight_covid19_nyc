@@ -1,0 +1,24 @@
+{% extends "index.html" %}
+{% load static %}
+
+{% block content %}
+
+<!-- Page Content -->
+<section class="py-5">
+    <div class="container">
+        <!--Google Maps-->
+        <div id="map-container-google-1" class="row z-depth-1-half map-container h-100" style="height: 500px">
+            <iframe src="https://www.google.com/maps/d/embed?mid=1qO5bDE71rxfqdYyEoFfmW7HWPHnlePzz" frameborder="0"
+                    style="border:0" allowfullscreen></iframe>
+        </div>
+        <!--Google Maps-->
+        <h2 class="font-weight-light">Disclaimer</h2>
+        <p>This map is for general information purposes only and all the information was collected from internet. While
+            we'll try our best to keep the information up to date and correct, we make no representations or warranties
+            of any kind, express or implied, about the completeness, accuracy, reliability, with respect to the website
+            or the information. We do not bear any legal responsibility for any consequence caused by the use of
+            information provided.</p>
+    </div>
+</section>
+
+{% endblock %}
