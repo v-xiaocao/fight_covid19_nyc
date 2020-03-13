@@ -12,6 +12,7 @@
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"
             integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
             crossorigin="anonymous"></script>
+    <link rel="icon" href="{% static 'images/search_icon.png' %}">
     <title>Fight Covid19 NYC</title>
 </head>
 <body>
@@ -35,14 +36,14 @@
                 <li class="nav-item">
                     <a class="nav-link" href="{% url 'dashboard' %}">Dashboard</a>
                 </li>
+                <!--                <li class="nav-item">-->
+                <!--                    <a class="nav-link" href="{% url 'table' %}">Table</a>-->
+                <!--                </li>-->
                 <li class="nav-item">
-                    <a class="nav-link" href="{% url 'table' %}">Table</a>
+                    <a class="nav-link" href="{% url 'submit' %}">Submit</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Submit</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">About</a>
+                <!--                <li class="nav-item">-->
+                <!--                    <a class="nav-link" href="#">About</a>-->
                 </li>
             </ul>
         </div>
@@ -56,3 +57,15 @@
 
 
 {% endblock %}
+
+<!-- Footer -->
+<footer class="page-footer font-small blue fixed-bottom">
+
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-3">By
+        <a href="https://www.quanwei.tech/"> www.QuanWei.Tech</a>
+    </div>
+    <!-- Copyright -->
+
+</footer>
+<!-- Footer -->
